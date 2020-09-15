@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
             int a = Integer.parseInt(reader.readLine());
             int b = Integer.parseInt(reader.readLine());
             max += a > b ? a : b;
-
+            //max += Math.max(a, b);(can be replaced by this line of code, math function)
             System.out.println(max);
         }
 
