@@ -19,4 +19,24 @@ public class More_reverse {
         }
     }
 }
+// second program
+    /*public static void main(String[] args)
+    {
+        Reader r = new InputStreamReader(System.in);
+        BufferedReader reader = new BufferedReader(r);
 
+// Read strings from the keyboard
+        String[] list = new String[10];
+        for (int i = 0; i < list.length; i++)
+        {
+            String s = reader.readLine();
+            list[i] = s;
+        }
+
+// Display the contents of the array
+        for (int i = 0; i < list.length; i++)
+        {
+            int j = list.length - i - 1;
+            System.out.println( list[j] );
+        }
+    }*/
