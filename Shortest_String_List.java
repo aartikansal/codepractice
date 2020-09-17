@@ -6,22 +6,22 @@ import java.util.ArrayList;
 
     public class Shortest_String_List {
         public static void main(String[] args) throws Exception {
-            ArrayList<String> array = new ArrayList<String>();
-            BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
-            int min =0;
-            for (int i = 0; i < 5; i++) {
-                String s = input.readLine();
-                array.add(s);
-                min = array.get(0).length();
-                if (min > array.get(i).length())
-                    min = array.get(i).length();
+            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+            ArrayList<String> list = new ArrayList<String>();
+            int min = Integer.MAX_VALUE;
+            for (int i = 0; i < 5; i++){
+                String s = reader.readLine();
+                list.add(s);
+                if (list.get(i).length() < min)
+                    min = list.get(i).length();
             }
 
-            for (int i = 0; i < array.size(); i++) {
+            for (int i = 0; i < 5; i++){
 
-                if (min==array.get(i).length()) {
-                    System.out.println(array.get(i));
+                if (list.get(i).length() == min){
+                    System.out.println(list.get(i));
                 }
             }
         }
     }
+
