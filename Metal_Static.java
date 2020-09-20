@@ -6,7 +6,6 @@ public class Metal_Static {
             String name;
         }
         public static void main(String[] args) {
-            //write your code here
             KissMyShinyMetalRearActuator metal = new KissMyShinyMetalRearActuator();
 
             System.out.println(metal);
