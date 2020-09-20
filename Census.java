@@ -6,10 +6,6 @@ Family census
 */
 public class Census {
         public static void main(String[] args) {
-
-           // Human Papa = new Human("papa",true,50);
-            //Human Mummy = new Human("mummy",false,50);
-
             Human h1 = new Human("Aarti",false, 22);
             Human h2 = new Human("Aarti1",false, 21);
             Human h3 = new Human("Aarti2",false, 23);
