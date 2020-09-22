@@ -1,13 +1,9 @@
 package com.company;
 
-
-
-
 /*
 HashMap of 10 pairs
 
 */
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -24,6 +20,13 @@ public class Hashmap_10pairs {
             map.put("strawberry", "fruit");
             map.put("iris", "flower");
             map.put("potato", "tuber");
+
+            for (Map.Entry<String, String> pair : map.entrySet())
+            {
+                String key = pair.getKey();                      // Key
+                String value = pair.getValue();                  // Value
+                System.out.println(key + " - " + value);
+            }
 
         }
     }
