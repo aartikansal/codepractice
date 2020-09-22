@@ -1,10 +1,4 @@
 package com.company;
-
-
-
-
-
-
     public class Calculator {
         public static int plus(int a, int b) {
             int sum = a+b;
