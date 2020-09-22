@@ -1,6 +1,4 @@
 package com.company;
-
-
 public class Cat {
     public int age;
     public int weight;
@@ -28,7 +26,7 @@ public class Cat {
         cat2.age=10;
         cat2.weight=15;
         cat2.strength=13;
-        System.out.println(cat1.fight(cat2));
+        System.out.println(cat2.fight(cat1));
         System.out.println(cat2.fight(cat1));
     }
 }
