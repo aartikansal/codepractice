@@ -17,25 +17,27 @@ public class HashMap_cats {
 
 
     public static HashMap<String, Cat> addCatsToMap(String[] cats) {
-        //write your code here
-        HashMap<String, Cat> map = new HashMap<String, Cat>();
-
-        return map;
+        HashMap<String, Cat> map1 = new HashMap<String, Cat>();
+        for (int i = 0; i < cats.length; i++) {
+            map1.put(cats[i], new Cat(cats[i]));
+        }
+        return map1;
     }
 
 
+    public static class Cat {
+        String name;
 
-        public static class Cat {
-            String name;
+        public Cat(String name) {
+            this.name = name;
+        }
 
-            public Cat(String name) {
-                this.name = name;
-            }
-
-            @Override
-            public String toString() {
-                return name != null ? name.toUpperCase() : null;
-            }
+        @Override
+        public String toString() {
+            return name != null ? name.toUpperCase() : null;
         }
     }
+}
+
+
 
