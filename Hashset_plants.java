@@ -9,7 +9,7 @@ HashSet of plants
 */
 public class Hashset_plants {
         public static void main(String[] args) throws Exception {
-            Set<String> set = new HashSet<String>();
+            HashSet<String> set = new HashSet<String>();
             set.add("watermelon");
             set.add("banana");
             set.add("cherry");
