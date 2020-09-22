@@ -8,7 +8,7 @@ public class CatFight {
         Cat cat2 = new Cat("Ray", 6, 19,5);
         Cat cat3 = new Cat("Rosie",3,10,3);
 
-        System.out.println(cat1.fight(cat2));
+        System.out.println(cat2.fight(cat1));
         System.out.println(cat2.fight(cat3));
         System.out.println(cat3.fight(cat1));
 
