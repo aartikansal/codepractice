@@ -3,7 +3,6 @@ package com.company;
 public class CatFight {
 
     public static void main(String[] args) {
-        //write your code here
         Cat cat1 = new Cat("Tyler", 7, 15, 4);
         Cat cat2 = new Cat("Ray", 6, 19,5);
         Cat cat3 = new Cat("Rosie",3,10,3);
@@ -11,8 +10,6 @@ public class CatFight {
         System.out.println(cat2.fight(cat1));
         System.out.println(cat2.fight(cat3));
         System.out.println(cat3.fight(cat1));
-
-
     }
 
     public static class Cat {
