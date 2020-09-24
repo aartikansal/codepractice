@@ -27,7 +27,6 @@ public class Census {
         }
 
         public static class Human {
-            // write your code here
             String name;
             boolean sex;
             int age;
