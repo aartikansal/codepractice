@@ -8,7 +8,6 @@ public class Cat {
     }
 
     public boolean fight(Cat anotherCat) {
-        //write your code here
         if((this.strength>anotherCat.strength)&&(this.weight>anotherCat.weight)&&(this.age>anotherCat.age)){
             return true;
         }
