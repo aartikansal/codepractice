@@ -8,9 +8,9 @@ Controlling body weight
 
            public class Bmi {
            public static void main(String[] args) throws IOException {
-               BufferedReader bis = new BufferedReader(new InputStreamReader(System.in));
-               double weight = Double.parseDouble(bis.readLine());
-               double height = Double.parseDouble(bis.readLine());
+               BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+               double weight = Double.parseDouble(br.readLine());
+               double height = Double.parseDouble(br.readLine());
 
                Body.calculateBMI(weight, height);
            }
