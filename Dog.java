@@ -1,7 +1,6 @@
 package com.company;
 
 public class Dog {
-        //write your code here
         String name;
         int age;
 
