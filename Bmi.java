@@ -1,6 +1,4 @@
 package com.company;
-
-
 import java.io.*;
 
 /*
@@ -8,8 +6,7 @@ Controlling body weight
 
 */
 
-       public class Bmi {
-
+           public class Bmi {
            public static void main(String[] args) throws IOException {
                BufferedReader bis = new BufferedReader(new InputStreamReader(System.in));
                double weight = Double.parseDouble(bis.readLine());
@@ -18,11 +15,8 @@ Controlling body weight
                Body.calculateBMI(weight, height);
            }
 
-           public static class Body {
-
+               public static class Body {
                public static void calculateBMI(double weight, double height) {
-
-
                        double bmi = weight / (height * height);
                        if (bmi < 18.5) {
                            System.out.println("Underweight: BMI < 18.5");
