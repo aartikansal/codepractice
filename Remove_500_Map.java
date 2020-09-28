@@ -10,7 +10,6 @@ Only for the rich
 
 public class Remove_500_Map {
     public static HashMap<String, Integer> createMap() {
-        //write your code here
         HashMap<String, Integer> map = new HashMap<String, Integer>();
         map.put("Kansal", 1000);
         map.put("Dhingra", 700);
@@ -34,7 +33,7 @@ public class Remove_500_Map {
 
         }
     }
-    
+
 
 
     public static void main(String[] args) {
