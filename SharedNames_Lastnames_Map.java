@@ -17,18 +17,19 @@ public class SharedNames_Lastnames_Map {
     }
 
     public static Map<String, String> createPeopleMap() {
-        Map<String, String> map1 = new Map<String, String>() {
-        map.put("Kansal","Aarti");
-        map.put("Kansal","Amit");
-        map.put("Kansal","Eva");
-        map.put("Lumb","Aarti");
-        map.put("Mcguire","Tom");
-        map.put("Prasad","Ram");
-        map.put("Blair","Tony");
-        map.put("Jain","Aastha");
-        map.put("Connor","Woo");
-        map.put("Pandit","Rachna");
-        return map1;
+        Map<String, String> people = new HashMap<String, String>();
+        people.put("Kansal","Aarti");
+        people.put("Kansal","Amit");
+        people.put("Kansal","Eva");
+        people.put("Lumb","Aarti");
+        people.put("Mcguire","Tom");
+        people.put("Prasad","Ram");
+        people.put("Blair","Tony");
+        people.put("Jain","Aastha");
+        people.put("Connor","Woo");
+        people.put("Pandit","Rachna");
+
+        return people;
         }
 
 
@@ -38,4 +39,5 @@ public class SharedNames_Lastnames_Map {
             }
         }
     }
-}
+
+
