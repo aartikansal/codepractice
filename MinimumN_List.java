@@ -24,11 +24,11 @@ public class MinimumN_List {
     }
 
     public static List<Integer> getIntegerList() throws IOException {
-        // Create and initialize a list here
-        int N = Integer.parseInt(bf.readLine());
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int N = Integer.parseInt(br.readLine());
         LinkedList<Integer> list = new LinkedList<Integer>();
         for(int i = 0; i < N; i++){
-            list.add(Integer.parseInt(bf.readLine()));
+            list.add(Integer.parseInt(br.readLine()));
         }
         return list;
     }
