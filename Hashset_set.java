@@ -13,11 +13,8 @@ package com.company;
         {
             set.add("L"+" "+i);
         }
-
         return set;
     }
-
     public static void main(String[] args) {
-
     }
 }
