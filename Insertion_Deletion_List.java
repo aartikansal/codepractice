@@ -4,7 +4,6 @@ import java.util.LinkedList;
 import java.util.List;
 /*
 10 thousand deletions and insertions
-
 */
 public class Insertion_Deletion_List {
     public static void main(String[] args) throws Exception {
