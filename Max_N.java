@@ -1,11 +1,8 @@
 package com.company;
 
-
 import java.io.*;
 
-
-
-        public class Max_N {
+            public class Max_N {
             public static void main(String[] args) throws Exception {
                 BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
                 int maximum = 0;
