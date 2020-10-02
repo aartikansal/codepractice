@@ -1,15 +1,11 @@
 package com.company;
 
-
-
 import java.io.*;
 import java.util.Scanner;
      public class NegPosFizz{
      public static void main(String[] args) throws Exception {
-        //write your code here
         Scanner sc = new Scanner (System.in);
         int b = sc.nextInt();
-
         if((b % 2  == 0) && (b < 0))
         {
             System.out.println("Negative even number");
