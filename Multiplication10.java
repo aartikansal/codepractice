@@ -13,6 +13,12 @@ public class Multiplication10 {
             i++;
             j=1;
             System.out.println();
+
         }
+
+
+
+
+
     }
 }
