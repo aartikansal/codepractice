@@ -1,6 +1,7 @@
 package com.company;
-import java.io.*;
+
 import java.util.Scanner;
+
 public class Triangle {
 
         public static void main(String[] args) throws Exception {
