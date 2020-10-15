@@ -1,7 +1,7 @@
 package com.company;
 
 public class Util {
-    
+
         public static double getDistance(int x1, int y1, int x2, int y2) {
             //write your code here
             int x = x1 - x2 ;
