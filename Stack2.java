@@ -34,10 +34,3 @@ public class Stack2 {
 
 
 
-
-
-
-
-
-
-}
