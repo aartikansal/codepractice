@@ -8,41 +8,39 @@ Catching checked exceptions
 
 */
 
-public class Checked_exception{
+public class Checked_exception {
     public static void main(String[] args) {
-        try {
-            handleExceptions(new Solution());
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (NoSuchFieldException e) {
-            e.printStackTrace();
-        }
+        handleExceptions(new Solution());
 
     }
-    public static void handleExceptions(Solution obj) throws IOException, NoSuchFieldException {
-        obj.method1();
-        obj.method2();
-        obj.method3();
 
-        try{
-            obj.method1();
-            obj.method2();
-            obj.method3();
-        }
-        catch(Exception e){System.out.println(e);
+    public static void handleExceptions(Solution obj) {
+        int i = 1;
+        while (i <= 3) {
+            try {
+                if (i == 1)
+                    obj.method1();
+                else if (i == 2)
+                    obj.method2();
+                else if (i == 3)
+                    obj.method3();
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+            i++;
         }
     }
 
+        public void method1 () throws IOException {
+            throw new IOException();
+        }
 
-    public void method1() throws IOException {
-        throw new IOException();
+        public void method2 () throws NoSuchFieldException {
+            throw new NoSuchFieldException();
+        }
+
+        public void method3 () throws RemoteException {
+            throw new RemoteException();
+        }
     }
 
-    public void method2() throws NoSuchFieldException {
-        throw new NoSuchFieldException();
-    }
-
-    public void method3() throws RemoteException {
-        throw new RemoteException();
-    }
-}
