@@ -1,12 +1,7 @@
 package com.company;
 
-
-
-
-
 /*
 Catching a group of exceptions
-
 */
 
 public class Many_exceptions {
