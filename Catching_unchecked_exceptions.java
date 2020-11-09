@@ -1,5 +1,11 @@
 package com.company;
 
+
+/*
+Catching unchecked exceptions
+*/
+
+
 public class Catching_unchecked_exceptions {
     public static void main(String[] args) {
         handleExceptions(new Solution());
