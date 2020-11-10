@@ -5,7 +5,6 @@ Dividing by zero
 */
 
 public class Zero_Exception {
-
     public static void main(String[] args) {
         try
         {
