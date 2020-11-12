@@ -1,10 +1,9 @@
 package com.company;
 
 public class Solution {
-
-
-
     public  static int step;
+    public static int d;
+    public int a;
 
     public static void main(String[] args) {
         method1();
