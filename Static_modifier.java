@@ -9,20 +9,20 @@ Static modifiers are out of place
 
 */
 public class Static_modifier {
-    public int A = 5;
-    public int B = 2 * A;
-    public int C = A * B;
-    public int D = A * B;
+    public static int a = 5;
+    public static int B = 2 * a;
+    public int C = a * B;
+    public static int D = a * B;
 
     public static void main(String[] args) {
         Solution room = new Solution();
-        room.A = 5;
+        room.a = 5;
 
-        Solution.D = 5;
+        Solution.d = 5;
     }
 
-    public static int getA() {
-        return A;
+    public int geta() {
+        return a ;
     }
 
 }
