@@ -4,19 +4,19 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 public class Check_date {
     public static void main(String[] args) throws Exception {
-        BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));
 
-    SimpleDateFormat a = new SimpleDateFormat("yyyy-MM-dd");
-    Date firstDate = a.parse(r.readLine());
+        SimpleDateFormat ymd = new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat mdy = new SimpleDateFormat("MMM dd, yyyy", Locale.ENGLISH);
 
-    SimpleDateFormat f = new SimpleDateFormat("MM dd, yyyy");
-    String other = f.format(firstDate);
+        String s = rd.readLine();
+        Date date = ymd.parse(s);
 
-System.out.println(other);
+        System.out.println(mdy.format(date).toUpperCase());
 
-
-        }
-        }
+    }
+}
