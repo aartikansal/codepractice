@@ -12,7 +12,7 @@ public class Check_date {
     SimpleDateFormat a = new SimpleDateFormat("yyyy-MM-dd");
     Date firstDate = a.parse(r.readLine());
 
-    SimpleDateFormat f = new SimpleDateFormat("MMM dd, yyyy");
+    SimpleDateFormat f = new SimpleDateFormat("MM dd, yyyy");
     String other = f.format(firstDate);
 
 System.out.println(other);
