@@ -7,6 +7,6 @@ public class Cast5 {
         int a =  44;
         int b =  300;
         short c = (short) (b - a);
-        System.out.println(c);
+        System.out.println(c);//256
     }
 }
