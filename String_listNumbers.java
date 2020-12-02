@@ -26,8 +26,6 @@ public class String_listNumbers {
             String s = reader.readLine();
             list.add(s.toLowerCase());
         }
-
-        // write your code here
         int[] count = new int[alphabet.size()];
         for (String s : list) {
             for (char c : s.toCharArray()) {
