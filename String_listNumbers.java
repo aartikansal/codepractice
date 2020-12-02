@@ -37,7 +37,11 @@ public class String_listNumbers {
                 count[index]++;
             }
         }
-
+        // Output of the result
+        for (int i = 0; i < alphabet.size(); i++) {
+            char c = alphabet.get(i);
+            System.out.println(c + " " + count[i]);
+        }
     }
 
 }
