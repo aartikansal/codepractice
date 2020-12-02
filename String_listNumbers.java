@@ -27,8 +27,17 @@ public class String_listNumbers {
             list.add(s.toLowerCase());
         }
 
-
         // write your code here
+        int[] count = new int[alphabet.size()];
+        for (String s : list) {
+            for (char c : s.toCharArray()) {
+                int index = alphabet.indexOf(c);
+                if (index < 0) continue;
+
+                count[index]++;
+            }
+        }
+
     }
 
 }
